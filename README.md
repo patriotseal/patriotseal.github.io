@@ -19,7 +19,7 @@ GitHub Pages should then publish the site at:
 
 - Phone: 912-328-4601
 - Email: jordan@patriotsealnstripe.com
-- Domain: https://patriosealnstripe.com
+- Domain: https://patriotsealnstripe.com
 
 The quote form is configured to send to `jordan@patriotsealnstripe.com`.
 
