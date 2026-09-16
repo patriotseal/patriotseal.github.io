@@ -1,22 +1,34 @@
 # Patriot Seal & Stripe Website
 
-Uniform redesigned version for GitHub Pages.
+This folder is ready to publish with GitHub Pages.
 
-## Upload to the root of `patriotseal.github.io`
+## Upload to GitHub
+
+Upload these items to the root of the `patriotseal.github.io` repository:
 
 - `index.html`
 - `styles.css`
 - `script.js`
-- `patriot-seal-stripe-logo.png`
-- `CNAME`
+- the entire `assets` folder
 
-You may also upload `README.md`.
+GitHub Pages should then publish the site at:
 
-This version keeps the original site's content and layout feel, but uses a more uniform navy, maroon, and white design with a parking-lot image.
+`https://patriotseal.github.io`
 
-## Business information
+## Business contact information
 
-Phone: 912-328-4601  
-Email: jordan@patriotsealnstripe.com  
-Domain: https://patriotsealnstripe.com  
-Service area: Coastal Georgia
+- Phone: 912-328-4601
+- Email: jordan@patriotsealnstripe.com
+- Domain: https://patriotsealnstripe.com
+
+The quote form is configured to send to `jordan@patriotsealnstripe.com`.
+
+Note: FormSubmit may send a one-time activation email the first time the form is used. Follow that email's instructions to activate form delivery.
+
+## Custom domain
+
+Once the site is working on GitHub Pages, the GoDaddy domain can be connected from:
+
+Repository → Settings → Pages → Custom domain
+
+After the actual domain is known, DNS records can be configured in GoDaddy.
