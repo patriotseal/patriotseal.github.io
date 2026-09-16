@@ -310,6 +310,7 @@ h3 {
 .service-card .icon {
   width: 46px;
   height: 46px;
+  border: 2px solid var(--red);
   border-radius: 50%;
   display: grid;
   place-items: center;
@@ -536,14 +537,6 @@ footer {
   grid-template-columns: 1fr auto;
   gap: 30px;
   align-items: start;
-}
-
-.footer-logo {
-  width: 240px;
-  background: white;
-  padding: 10px;
-  border-radius: 6px;
-  margin-bottom: 14px;
 }
 
 .footer-grid p {
