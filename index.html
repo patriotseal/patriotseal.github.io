@@ -4,8 +4,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="Patriot Seal & Stripe provides asphalt sealcoating, line striping, parking lot maintenance, and commercial dumpster refurbishment throughout Coastal Georgia.">
+  <meta name="theme-color" content="#071f33">
+
   <title>Patriot Seal & Stripe | Coastal Georgia Parking Lot Maintenance</title>
+
   <link rel="canonical" href="https://patriotsealnstripe.com/">
+
   <meta property="og:title" content="Patriot Seal & Stripe | Coastal Georgia Parking Lot Maintenance">
   <meta property="og:description" content="Sealcoating, line striping, parking lot maintenance, and commercial dumpster refurbishment throughout Coastal Georgia.">
   <meta property="og:url" content="https://patriotsealnstripe.com/">
@@ -13,14 +17,18 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://images.unsplash.com">
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
   <header class="site-header">
-    <div class="container nav-wrap">
+    <div class="container nav-shell">
       <a class="brand" href="#top" aria-label="Patriot Seal & Stripe home">
-        <img src="assets/patriot-seal-stripe-logo.png" alt="Patriot Seal & Stripe">
+        <span class="brand-box">
+          <img src="patriot-seal-stripe-logo.png" alt="Patriot Seal & Stripe">
+        </span>
       </a>
 
       <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">
@@ -32,64 +40,67 @@
         <a href="#dumpsters">Dumpster Refurbishment</a>
         <a href="#about">About</a>
         <a href="#service-area">Service Area</a>
+        <a class="nav-phone" href="tel:+19123284601">912-328-4601</a>
         <a class="nav-cta" href="#quote">Request a Quote</a>
       </nav>
     </div>
   </header>
 
   <main id="top">
+
     <section class="hero">
-      <div class="hero-overlay"></div>
-      <div class="container hero-grid">
+      <div class="hero-photo" aria-hidden="true"></div>
+      <div class="hero-wash" aria-hidden="true"></div>
+      <div class="hero-accent" aria-hidden="true"></div>
+
+      <div class="container hero-inner">
         <div class="hero-copy">
-          <p class="eyebrow">Professional Parking Lot Care • Coastal Georgia</p>
+          <p class="eyebrow light">Professional Parking Lot Care • Coastal Georgia</p>
           <h1>Keep Your Property Looking <span>Sharp, Clean & Professional.</span></h1>
           <p class="hero-text">
             Patriot Seal & Stripe is Coastal Georgia's premier choice for asphalt sealcoating,
             line striping, parking lot maintenance, and commercial dumpster refurbishment.
           </p>
+
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#quote">Request a Free Quote</a>
-            <a class="btn btn-secondary" href="#services">Explore Our Services</a>
+            <a class="btn btn-maroon" href="#quote">Request a Free Quote</a>
+            <a class="btn btn-outline" href="#services">Explore Our Services</a>
           </div>
-          <div class="trust-row">
-            <span>Commercial Properties</span>
-            <span>HOAs & Communities</span>
-            <span>Retail & Industrial</span>
-          </div>
-        </div>
 
-        <div class="hero-card">
-          <h2>One Call. A Better Looking Property.</h2>
-          <p>
-            From faded pavement markings to weathered asphalt and worn commercial dumpsters,
-            we help property owners and managers restore curb appeal and maintain a professional appearance.
-          </p>
-          <ul>
-            <li>Sealcoating & pavement protection</li>
-            <li>Parking lot line striping</li>
-            <li>Ongoing lot maintenance</li>
-            <li>Commercial dumpster refurbishment</li>
-          </ul>
-          <a href="#quote" class="text-link">Tell us about your property →</a>
+          <div class="hero-proof">
+            <div>
+              <strong>Coastal Georgia</strong>
+              <span>Locally focused service</span>
+            </div>
+            <div>
+              <strong>Commercial Properties</strong>
+              <span>Professional exterior care</span>
+            </div>
+            <div>
+              <strong>Property Maintenance</strong>
+              <span>One company, multiple solutions</span>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
 
-    <section class="intro-strip">
-      <div class="container">
-        <p>
+      <div class="hero-bottom-band">
+        <div class="container hero-band-inner">
           <strong>Built for businesses that care about first impressions.</strong>
-          We help maintain the surfaces and exterior details your customers see before they ever walk through the door.
-        </p>
+          <span>We help maintain the surfaces and exterior details your customers see before they ever walk through the door.</span>
+        </div>
       </div>
     </section>
 
-    <section class="section" id="services">
+    <section class="section services-section" id="services">
       <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">What We Do</p>
-          <h2>Complete Parking Lot Maintenance</h2>
+        <div class="section-topline"></div>
+
+        <div class="section-heading split-heading">
+          <div>
+            <p class="eyebrow">What We Do</p>
+            <h2>Complete Parking Lot Maintenance</h2>
+          </div>
           <p>
             A well-maintained parking lot protects your investment, improves curb appeal, and gives customers
             a better first impression of your property.
@@ -98,91 +109,136 @@
 
         <div class="service-grid">
           <article class="service-card">
-            <div class="icon">01</div>
+            <div class="service-number">01</div>
             <h3>Asphalt Sealcoating</h3>
             <p>
               Restore a rich, uniform appearance while helping protect asphalt from sun, water, oxidation,
               and everyday wear.
             </p>
+            <span class="service-rule"></span>
           </article>
 
           <article class="service-card">
-            <div class="icon">02</div>
+            <div class="service-number">02</div>
             <h3>Line Striping</h3>
             <p>
               Fresh, crisp parking lines, directional markings, fire lanes, ADA markings, curbs,
               and other pavement markings.
             </p>
+            <span class="service-rule"></span>
           </article>
 
           <article class="service-card">
-            <div class="icon">03</div>
+            <div class="service-number">03</div>
             <h3>Parking Lot Maintenance</h3>
             <p>
               Practical solutions for keeping commercial lots orderly, presentable, and ready for customers,
               employees, tenants, and visitors.
             </p>
+            <span class="service-rule"></span>
           </article>
 
-          <article class="service-card accent-card">
-            <div class="icon">04</div>
+          <article class="service-card feature-service">
+            <div class="service-number">04</div>
             <h3>Commercial Dumpster Refurbishment</h3>
             <p>
               Give aging commercial dumpsters a cleaner, more professional appearance through surface preparation,
               rust treatment, and refinishing.
             </p>
+            <span class="service-rule"></span>
           </article>
         </div>
 
-        <div class="more-services">
-          <h3>More ways to improve your property</h3>
-          <p>
-            Ask us about additional parking lot and exterior maintenance options tailored to your site.
-            We can help build a practical plan around the condition, appearance, and needs of your property.
-          </p>
+        <div class="maintenance-banner">
+          <div class="maintenance-icon">PSS</div>
+          <div>
+            <h3>More ways to improve your property</h3>
+            <p>
+              Ask us about additional parking lot and exterior maintenance options tailored to your site.
+              We can help build a practical plan around the condition, appearance, and needs of your property.
+            </p>
+          </div>
+          <a class="btn btn-navy" href="#quote">Talk With Us</a>
         </div>
       </div>
     </section>
 
-    <section class="section dark-section" id="dumpsters">
-      <div class="container split">
-        <div>
+    <section class="stripe-photo-section" aria-label="Fresh parking lot striping">
+      <div class="container stripe-photo-copy">
+        <p class="eyebrow light">Clean Lines. Strong First Impressions.</p>
+        <h2>Fresh pavement markings make a property look cared for.</h2>
+      </div>
+    </section>
+
+    <section class="section dumpster-section" id="dumpsters">
+      <div class="container dumpster-grid">
+        <div class="dumpster-copy">
           <p class="eyebrow light">A New Look Without Replacement Cost</p>
           <h2>Commercial Dumpster Refurbishment</h2>
-          <p class="lead">
+          <p class="lead-light">
             Rusted, faded, and neglected dumpsters can drag down the appearance of an otherwise well-maintained property.
             Patriot Seal & Stripe helps bring them back to a cleaner, more professional condition.
           </p>
 
           <div class="process">
-            <div><span>1</span><p><strong>Assess</strong><br>We evaluate the condition of the dumpster and identify problem areas.</p></div>
-            <div><span>2</span><p><strong>Prepare</strong><br>Loose material, grime, and surface rust are addressed before refinishing.</p></div>
-            <div><span>3</span><p><strong>Refinish</strong><br>The exterior is restored for a cleaner, more uniform appearance.</p></div>
+            <div class="process-step">
+              <span>1</span>
+              <div>
+                <h3>Assess</h3>
+                <p>We evaluate the condition of the dumpster and identify problem areas.</p>
+              </div>
+            </div>
+
+            <div class="process-step">
+              <span>2</span>
+              <div>
+                <h3>Prepare</h3>
+                <p>Loose material, grime, and surface rust are addressed before refinishing.</p>
+              </div>
+            </div>
+
+            <div class="process-step">
+              <span>3</span>
+              <div>
+                <h3>Refinish</h3>
+                <p>The exterior is restored for a cleaner, more uniform appearance.</p>
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="feature-panel">
+        <aside class="dumpster-card">
           <p class="mini-label">Ideal For</p>
-          <h3>Property managers, apartment communities, restaurants, retailers, industrial sites, and commercial facilities.</h3>
+          <h3>Properties where appearance matters.</h3>
+          <p class="ideal-list">
+            Property managers, apartment communities, restaurants, retailers, industrial sites, and commercial facilities.
+          </p>
           <p>
             Refurbishment can be a practical way to improve appearance and extend the usable life of existing equipment
             without immediately replacing the entire container.
           </p>
-          <a class="btn btn-primary" href="#quote">Get Dumpster Refurbishment Pricing</a>
-        </div>
+          <a class="btn btn-maroon full-width" href="#quote">Get Dumpster Refurbishment Pricing</a>
+        </aside>
       </div>
     </section>
 
-    <section class="section" id="about">
-      <div class="container split about-grid">
-        <div class="about-mark">
-          <img src="assets/patriot-seal-stripe-logo.png" alt="Patriot Seal & Stripe logo">
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="about-logo-panel">
+          <div class="logo-frame">
+            <img src="patriot-seal-stripe-logo.png" alt="Patriot Seal & Stripe logo">
+          </div>
+          <div class="about-tag">
+            <strong>Professional.</strong>
+            <strong>Dependable.</strong>
+            <strong>Local.</strong>
+          </div>
         </div>
 
-        <div>
+        <div class="about-copy">
           <p class="eyebrow">About Patriot Seal & Stripe</p>
           <h2>Professional Work. Dependable Service. Local Focus.</h2>
-          <p class="lead dark">
+          <p class="lead-dark">
             We serve commercial properties throughout Coastal Georgia with straightforward,
             professional exterior maintenance services designed to protect your investment and improve curb appeal.
           </p>
@@ -205,24 +261,37 @@
             throughout Coastal Georgia and surrounding areas.
           </p>
         </div>
-        <a class="btn btn-light" href="#quote">Ask About Your Location</a>
+
+        <div class="service-area-actions">
+          <a class="btn btn-white" href="#quote">Ask About Your Location</a>
+          <a class="service-phone" href="tel:+19123284601">912-328-4601</a>
+        </div>
       </div>
     </section>
 
     <section class="section quote-section" id="quote">
       <div class="container quote-grid">
-        <div>
+        <div class="quote-copy">
           <p class="eyebrow">Request a Quote</p>
           <h2>Tell Us What Your Property Needs.</h2>
-          <p class="lead dark">
+          <p class="lead-dark">
             Send us a few details about your project and we’ll follow up to discuss the property,
             scope of work, and next steps.
           </p>
 
-          <div class="contact-placeholder">
-            <p><strong>Phone:</strong> <a href="tel:+19123284601">912-328-4601</a></p>
-            <p><strong>Email:</strong> <a href="mailto:jordan@patriotsealnstripe.com">jordan@patriotsealnstripe.com</a></p>
-            <p><strong>Service Area:</strong> Coastal Georgia</p>
+          <div class="contact-card">
+            <div>
+              <span class="contact-label">Phone</span>
+              <a href="tel:+19123284601">912-328-4601</a>
+            </div>
+            <div>
+              <span class="contact-label">Email</span>
+              <a href="mailto:jordan@patriotsealnstripe.com">jordan@patriotsealnstripe.com</a>
+            </div>
+            <div>
+              <span class="contact-label">Service Area</span>
+              <strong>Coastal Georgia</strong>
+            </div>
           </div>
         </div>
 
@@ -230,25 +299,27 @@
           <input type="hidden" name="_subject" value="New Patriot Seal & Stripe Website Quote Request">
           <input type="hidden" name="_captcha" value="false">
 
-          <label>
-            Name
-            <input type="text" name="name" required>
-          </label>
+          <div class="field-grid">
+            <label>
+              Name
+              <input type="text" name="name" required>
+            </label>
 
-          <label>
-            Company / Property
-            <input type="text" name="company">
-          </label>
+            <label>
+              Company / Property
+              <input type="text" name="company">
+            </label>
 
-          <label>
-            Phone
-            <input type="tel" name="phone" required>
-          </label>
+            <label>
+              Phone
+              <input type="tel" name="phone" required>
+            </label>
 
-          <label>
-            Email
-            <input type="email" name="email" required>
-          </label>
+            <label>
+              Email
+              <input type="email" name="email" required>
+            </label>
+          </div>
 
           <label>
             Service Needed
@@ -267,7 +338,7 @@
             <textarea name="message" rows="5" placeholder="Tell us about the property, location, and work you need."></textarea>
           </label>
 
-          <button class="btn btn-primary full-width" type="submit">Request My Quote</button>
+          <button class="btn btn-maroon full-width" type="submit">Request My Quote</button>
           <p class="form-note">Quote requests are sent to jordan@patriotsealnstripe.com.</p>
         </form>
       </div>
@@ -276,8 +347,10 @@
 
   <footer>
     <div class="container footer-grid">
-      <div>
-        <img class="footer-logo" src="assets/patriot-seal-stripe-logo.png" alt="Patriot Seal & Stripe">
+      <div class="footer-brand">
+        <div class="footer-logo-box">
+          <img src="patriot-seal-stripe-logo.png" alt="Patriot Seal & Stripe">
+        </div>
         <p>Sealcoating • Line Striping • Parking Lot Maintenance • Commercial Dumpster Refurbishment</p>
       </div>
 
@@ -287,10 +360,17 @@
         <a href="#about">About</a>
         <a href="#quote">Request a Quote</a>
       </div>
+
+      <div class="footer-contact">
+        <a href="tel:+19123284601">912-328-4601</a>
+        <a href="mailto:jordan@patriotsealnstripe.com">jordan@patriotsealnstripe.com</a>
+        <span>Coastal Georgia</span>
+      </div>
     </div>
 
-    <div class="container copyright">
+    <div class="container footer-bottom">
       <p>© <span id="year"></span> Patriot Seal & Stripe. All rights reserved.</p>
+      <p class="photo-credit">Parking lot photography by Ingo Zöll via Unsplash.</p>
     </div>
   </footer>
 
