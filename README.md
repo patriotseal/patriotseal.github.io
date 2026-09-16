@@ -1,34 +1,38 @@
 # Patriot Seal & Stripe Website
 
-This folder is ready to publish with GitHub Pages.
+Redesigned version for GitHub Pages.
 
-## Upload to GitHub
-
-Upload these items to the root of the `patriotseal.github.io` repository:
+## Upload these files to the root of `patriotseal.github.io`
 
 - `index.html`
 - `styles.css`
 - `script.js`
-- the entire `assets` folder
+- `patriot-seal-stripe-logo.png`
+- `CNAME`
 
-GitHub Pages should then publish the site at:
+You may also upload this README.
 
-`https://patriotseal.github.io`
+The logo intentionally lives in the repository root. There is no `assets` folder required.
 
-## Business contact information
+## Business information
 
 - Phone: 912-328-4601
 - Email: jordan@patriotsealnstripe.com
-- Domain: https://patriotsealnstripe.com
+- Website: https://patriotsealnstripe.com
+- Service area: Coastal Georgia
 
-The quote form is configured to send to `jordan@patriotsealnstripe.com`.
+## Quote form
 
-Note: FormSubmit may send a one-time activation email the first time the form is used. Follow that email's instructions to activate form delivery.
+The quote form is configured to send to:
 
-## Custom domain
+`jordan@patriotsealnstripe.com`
 
-Once the site is working on GitHub Pages, the GoDaddy domain can be connected from:
+FormSubmit may send a one-time activation email after the first form submission.
 
-Repository → Settings → Pages → Custom domain
+## Hero photography
 
-After the actual domain is known, DNS records can be configured in GoDaddy.
+The design uses an externally hosted Unsplash image by Ingo Zöll:
+
+https://unsplash.com/photos/asphalt-parking-lot-with-white-painted-lines-xEtRHg-s-Kg
+
+The image is listed by Unsplash as free to use under the Unsplash License.
