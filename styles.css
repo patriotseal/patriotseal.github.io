@@ -300,7 +300,8 @@ h3 {
 
 .service-card {
   padding: 32px 28px;
-  border: 1px solid var(--light-gray);
+  border: 1px solid var(--red);
+  border-top: 5px solid var(--red);
   border-radius: 12px;
   background: white;
   box-shadow: 0 12px 30px rgba(6,50,74,.04);
@@ -320,10 +321,6 @@ h3 {
 
 .service-card h3 {
   color: var(--navy);
-}
-
-.accent-card {
-  border-top: 5px solid var(--red);
 }
 
 .more-services {
