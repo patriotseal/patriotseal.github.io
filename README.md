@@ -1,8 +1,8 @@
 # Patriot Seal & Stripe Website
 
-Redesigned version for GitHub Pages.
+Uniform redesigned version for GitHub Pages.
 
-## Upload these files to the root of `patriotseal.github.io`
+## Upload to the root of `patriotseal.github.io`
 
 - `index.html`
 - `styles.css`
@@ -10,29 +10,13 @@ Redesigned version for GitHub Pages.
 - `patriot-seal-stripe-logo.png`
 - `CNAME`
 
-You may also upload this README.
+You may also upload `README.md`.
 
-The logo intentionally lives in the repository root. There is no `assets` folder required.
+This version keeps the original site's content and layout feel, but uses a more uniform navy, maroon, and white design with a parking-lot image.
 
 ## Business information
 
-- Phone: 912-328-4601
-- Email: jordan@patriotsealnstripe.com
-- Website: https://patriotsealnstripe.com
-- Service area: Coastal Georgia
-
-## Quote form
-
-The quote form is configured to send to:
-
-`jordan@patriotsealnstripe.com`
-
-FormSubmit may send a one-time activation email after the first form submission.
-
-## Hero photography
-
-The design uses an externally hosted Unsplash image by Ingo Zöll:
-
-https://unsplash.com/photos/asphalt-parking-lot-with-white-painted-lines-xEtRHg-s-Kg
-
-The image is listed by Unsplash as free to use under the Unsplash License.
+Phone: 912-328-4601  
+Email: jordan@patriotsealnstripe.com  
+Domain: https://patriotsealnstripe.com  
+Service area: Coastal Georgia
